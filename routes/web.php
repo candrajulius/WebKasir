@@ -5,7 +5,7 @@ use App\Exports\TemplateExport;
 use Maatwebsite\Excel\Facades\Excel;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('admin/login');
 });
 
 Route::get('/download-template',function(){
